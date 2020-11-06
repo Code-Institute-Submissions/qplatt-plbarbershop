@@ -10,7 +10,9 @@ background-color: rgba(201, 200, 196, 0.096);
     border-bottom: 1px solid #777777;
 }
 
-
+.navbar{
+    background-color: gainsboro;
+}
 .callout{
     height: 50vh;
 
@@ -19,6 +21,7 @@ background-color: rgba(201, 200, 196, 0.096);
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: gainsboro;
     
     display: flex;
     align-items: center;
@@ -63,7 +66,7 @@ background-color: rgba(201, 200, 196, 0.096);
     background: url(../images/shavebrush.jpg);
    
 }
-
+/* credit: code about section and cards taken from https://www.w3schools.com/howto/howto_css_about_page.asp adjustments made to code to fit page needs*/
 
 html {
   box-sizing: border-box;
@@ -117,6 +120,8 @@ html {
   padding: 8px;
 }
 
+
+/* credit: code for styling price sheet taken from https://www.w3schools.com/howto/howto_css_pricing_table.asp  adjust code to fit page needs.*/
 .price {
   list-style-type: none;
   border: 2px solid gainsboro;
@@ -126,9 +131,6 @@ html {
   transition: 0.3s;
 }
 
-.price:hover {
-  box-shadow: 0 8px 12px 0 rgba(59, 0, 0, 0);
-}
 
 .price .header {
   background-color: rgba(0, 0, 255, 0.589);

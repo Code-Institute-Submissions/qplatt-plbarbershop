@@ -1,36 +1,39 @@
     README.md
 
 Platt’s Barbershop Website
-View the live project here.
+
+https://qplatt.github.io/plbarbershop/.
+
 This is the main website for Platt’s Barbershop. It is designed to help new customers identify and understand the availability, services, and operators of this business. This website is for existing customers to stay connected and updated on all services, availability and operators of this business.
 User Experience (UX)
-*  User stories
-    *  First Time Visitor Goals
+* User stories
+    * First Time Visitor Goals
         * As a first time Visitor, I want to know through testimonials they type of  experience I should have with this business.
         * As a First Time Visitor, I want to be able to easily understand when the business is open.
         * As a First Time Visitor, I want to easily find where the business is located.
         * As a First Time Visitor, I want to know prices and types of services provided.
         * As a first Time Visitor,   I want to know who’s providing the services.
         * As a first Time Visitor, I want to be able to navigate through all the pages to find the desired information smoothly.
-    *  Returning Visitor Goals
+    * Returning Visitor Goals
         * As a Returning Visitor, I want to find business hours.
         * As a Returning Visitor, I want to find the best way to get in contact and locate.
         * As a Returning Visitor, I want to find the prices of services that is provided.
-    *  Frequent User Goals
+    * Frequent User Goals
         * As a Frequent User, I want to check for business hour changes.
         * As a Frequent User, I want to check to see if there are any price changes.
         * As a Frequent User, I want to sign up for updates to their schedule
-*  Design
-    *  Color Scheme
+* Design
+    * Color Scheme
         * The main colors used is very light grey variation, gainsboro  and white.
-    *  Typography
-        * The Roboto font is used throughout the website because it is clean and very direct. Imagery
+    * Typography
+        * The Roboto font is used throughout the website because it is clean and very direct.
+    *Imagery
         * Imagery is important. The large, background hero image is very eye catching. It  will help the user understand the rustic yet modern nature of the business. 
-*  Wireframes
-    * Home Page, Profiles, and Prices Wireframe located in the assets folder 
+* Wireframes
+    * Home Page, Profiles, and Prices Wireframe located in the assets folder.
 
 Features
-* all device sizes are responsive. 
+* all device sizes are responsive.
 
 Languages Used
 * HTML5
@@ -62,7 +65,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * LightHouse- on the desktop audit scores are 99 perfomance, 93 accessibility , 93 best practices,  and 80 SEO. The mobile audit 96 Performance, 94 Accessiblity, 100 Best Practices, and  92 SEO.
 
 Testing User Stories from User Experience (UX) Section
-*  First Time Visitor Goals
+* First Time Visitor Goals
     * As a First Time Visitor, I want to be able to easily understand when the business is open.
         * The site has been designed so that on the home page the business hours are boldly display. The user can easily confirm what days and times the business is opened or closed.
     * As a First Time Visitor,I want to know through testimonials they type of  experience I should have with this business.
@@ -123,11 +126,11 @@ Credits
 Code
 * The Price charts code was used and modified to fit the websites needs from w3schools.com
 * Card and about me box code was used and modified to fit the websites need by w3schools.com
-* Bootstrap4: Bootstrap Library used throughout the project.  It was used for navbar, cards, buttons and other responsive features.  
+* Bootstrap4: Bootstrap Library used throughout the project.  It was used for navbar, cards, buttons and other responsive features.
 
 Content
 * Reviews content on home page retrieved from yelp page.
-* All content was written by the developer. 
+* All content was written by the developer.
 
 Media
 * Hero image stock photo from canva. 
@@ -135,5 +138,5 @@ Media
 * All other images were created by the developer.
 
 Acknowledgements
-* My Mentor for great communication and guidance that has been very helpful and applicable. 
-* Tutor support at Code Institute are wonderful and provided great amounts understanding  and support. 
+* My Mentor for great communication and guidance that has been very helpful and applicable.
+* Tutor support at Code Institute are wonderful and provided great amounts understanding  and support.

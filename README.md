@@ -40,23 +40,24 @@ Languages Used
 * CSS3
 
 Frameworks, Libraries & Programs Used
-1. Bootstrap 4.4.1:Bootstrap was used to assist with the responsiveness and styling of the website. 
-2. Hover.css:
-    * Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. Bootstrap 4.4.1:
+    *Bootstrap was used throughout for code used to style and increase responsiveness. 
 3. Google Fonts:
-    * Google fonts were used to import the fonts styles ‘Roboto and Exo. They were placed in style.css file and used throughout the project.
+    * Google fonts was used to import the fonts styles ‘Roboto and Exo. They were placed in style.css file and used throughout the project.
 4. Font Awesome:
-    * Font Awesome was used on the home page of the website to add icons in the footer for UX purposes.
+    * Font Awesome was used on the home page prices and profile page of the website to add icons in the footers.
 5. Git
     * Git was used to commit to Git and Push to GitHub.
 6. GitHub:
-    * GitHub is used to store the projects code after being pushed from Git.
+    * GitHub was used to store the code from the project after being pushing it from Git.
 7. Canva:
     * Canva was used to create the background image, resizing images and editing some photos for the website.
 8. W3schools:
-    * W3schools was used for code to help build price charts.
+    * W3schools was used for code to help build the price charts.
 9. Balsamiq:
     * Balsamiq was used to create the wireframes during the design process.
+10. Code Institute:
+    * Code Institute instructions was used throughout the project including the headers and README.
 
 Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -103,6 +104,11 @@ Further Testing
 * Lighthouse testing results
 
 Known Bugs
+* Cards on the profile page were large and unequal in size and appeared slightly pixelated. Corrected it by removing them from cards.  Also making them significantly smaller.
+* Navigation link label "Contact us" broken on the profiles page. It only appeared on smallest screen sizes. It was removed as it was there unneccesarily because there is another link for contact on the all the pages including the profiles page. 
+* Inconsistent colors in layout was fixed by adding background color gainsboro to the profile section of the profile page and to the prices section on the prices page.
+* Prices page poorly translated to smallest screens sizes. The charts would overlap one another. Implemententing proper responsive grid assignments to screen size prevents the overlap.
+* links broken for social media links.  Added the correct urls so that they will work.
 
 Deployment
 
@@ -127,6 +133,7 @@ Code
 * The Price charts code was used and modified to fit the websites needs from w3schools.com
 * Card and about me box code was used and modified to fit the websites need by w3schools.com
 * Bootstrap4: Bootstrap Library used throughout the project.  It was used for navbar, cards, buttons and other responsive features.
+* lechien73 README was used a guide throughout the README page.
 
 Content
 * Reviews content on home page retrieved from yelp page.
@@ -136,7 +143,9 @@ Media
 * Hero image stock photo from canva. 
 * Reviews photos licensed from adobe stock.
 * All other images were created by the developer.
+* Reviews on the review section was taken from Platt's Barbershop Yelp page.
 
 Acknowledgements
 * My Mentor for great communication and guidance that has been very helpful and applicable.
-* Tutor support at Code Institute are wonderful and provided great amounts understanding  and support.
+* Tutor support at Code Institute are wonderful and provided great amounts understanding and support.
+* Student care has been instrumental in the project continuing to move forward.

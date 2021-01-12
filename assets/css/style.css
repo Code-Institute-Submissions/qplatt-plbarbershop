@@ -13,6 +13,8 @@ background-color: rgba(201, 200, 196, 0.096);
 .navbar{
     background-color: gainsboro;
 }
+/*callout*/
+
 .callout{
     height: 50vh;
 
@@ -35,6 +37,7 @@ background-color: rgba(201, 200, 196, 0.096);
     
 }
 
+/* homepage */
 .hours{
     background-color: gainsboro;
     padding-top: 0px;
@@ -51,7 +54,6 @@ background-color: rgba(201, 200, 196, 0.096);
     margin-bottom: 100px;
 }
 
-
 .about{
     background-color: gainsboro;
 }
@@ -62,27 +64,20 @@ background-color: rgba(201, 200, 196, 0.096);
 
 }
 
-.profiles{
-    background: url(../images/shavebrush.jpg);
-   
-}
-/* credit: code about section and cards taken from https://www.w3schools.com/howto/howto_css_about_page.asp adjustments made to code to fit page needs*/
-
 html {
   box-sizing: border-box;
 }
-
+/* credit: code about section and cards taken from https://www.w3schools.com/howto/howto_css_about_page.asp adjustments made to code to fit page needs*/
+/*profiles page*/
+.profiles {
+    background-color: gainsboro;
+}
 
 .column {
   float: left;
   width: 33.3%;
   margin-bottom: 16px;
   padding: 0 8px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
 }
 
 .about-section {
@@ -92,23 +87,42 @@ html {
   color: black;
 }
 
-.container {
-  padding: 0 16px;
+ .heading{
+    text-transform: uppercase;
+    font-style: bold;
+    letter-spacing: 3.5px;
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    color: #333;
 }
 
 
+.column{
+    float: left;
+}
+
+.job-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: -8px;
+    text-align: center;
+}
+
+.about{
+    font-size: 15px;
+    margin: 15px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    color: #333;
+}
 .title {
   color: grey;
 }
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-
 
 .footer-details{
     padding-top: 20px;
@@ -122,9 +136,14 @@ html {
 
 
 /* credit: code for styling price sheet taken from https://www.w3schools.com/howto/howto_css_pricing_table.asp  adjust code to fit page needs.*/
+/*prices*/
+.pricechart {
+    background-color: gainsboro;
+}
+
 .price {
   list-style-type: none;
-  border: 2px solid gainsboro;
+  border: 2px solid gray;
   margin: 0;
   padding: 0;
   -webkit-transition: 0.3s;
@@ -133,8 +152,8 @@ html {
 
 
 .price .header {
-  background-color: rgba(0, 0, 255, 0.589);
-  color: white;
+  background-color: gray;
+  color:black;
   font-size: 25px;
 }
 
@@ -149,10 +168,6 @@ html {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
+.profiles {
+    background-color: gainsboro;
 }
-
-}
-
